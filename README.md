@@ -24,9 +24,9 @@ pip install -r requirements.txt
 
 ### 1. Data Demo
 
-Here we provide a demo of human-annotated data:
-[`data/answers/filtered_selected_answers.jsonl`](./data/answers/filtered_selected_answers.jsonl)
-[`data/answers/filtered_selected_answers_with_category.jsonl`](./data/answers/filtered_selected_answers_with_category.jsonl)
+Here we provide a demo of human-annotated data:  
+[`data/answers/filtered_selected_answers.jsonl`](./trustjudge/data/answers/filtered_selected_answers.jsonl)  
+[`data/answers/filtered_selected_answers_with_category.jsonl`](./trustjudge/data/answers/filtered_selected_answers_with_category.jsonl)
 
 **We will upload full data for reproduction soon.**
 

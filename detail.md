@@ -18,7 +18,7 @@
 ```
 Recommended: Build your dataset with the same schema as the demo (keys and types below). The evaluation scripts assume this structure.
 
-
+---
 
 ### 2. Generate Single-Score
 
