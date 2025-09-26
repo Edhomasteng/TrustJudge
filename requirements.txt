@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+numpy
+torch
+vllm
+transformers
+tokenizers
+sentencepiece
+safetensors
+huggingface-hub
+tiktoken
+requests
+PyYAML
+python-dotenv
+tqdm
