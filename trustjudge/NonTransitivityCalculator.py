@@ -400,7 +400,7 @@ def main():
     parser.add_argument("--length", type=int, required=True, help="Number of candidate answers used for the transitivity check (e.g., 5)")
     parser.add_argument("--tolerance-gap", type=float, default=0.0, help="Tolerance gap for score differences")
     parser.add_argument("--model", type=str, required=True, help="Model name, used to label the statistical results")
-    parser.add_argument("--method", type=str, default="baseline", choices=["baseline", "probs", "ppl"])
+    parser.add_argument("--method", type=str, default="baseline", choices=["baseline", "likelihood", "ppl"])
     args = parser.parse_args()
 
     question_info = read_jsonl(args.question_file)

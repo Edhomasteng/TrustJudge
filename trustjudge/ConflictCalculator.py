@@ -362,7 +362,7 @@ def main():
     parser.add_argument("--workers", type=int, default=1, help="Number of worker threads for parallel processing")
     parser.add_argument("--tolerance-gap", type=float, default=0.0, help="Tolerance gap for score differences")
     parser.add_argument("--model", type=str, required=True, help="Model name for the result record")
-    parser.add_argument("--method", type=str, default="baseline", choices=["baseline", "probs", "geval"])
+    parser.add_argument("--method", type=str, default="baseline", choices=["baseline", "softmax_weighted", "geval"])
     args = parser.parse_args()
 
     question_info = read_jsonl(args.question_file)
